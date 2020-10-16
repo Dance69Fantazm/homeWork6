@@ -15,7 +15,7 @@ public abstract class Animals {
     static Scanner sc = new Scanner(System.in);
 
     public static void rolSc() {
-            System.out.println("Введите длинну дистанции которую ПРОБЕГАТЕ животное: ");
+            System.out.println("Введите длинну дистанции которую ПРОБЕГАЕТ животное: ");
             distRun = sc.nextInt();
             System.out.println("Введите длинну дистанции которую ПРОПЛЫВАЕТ животное: ");
             distSwim = sc.nextInt();
