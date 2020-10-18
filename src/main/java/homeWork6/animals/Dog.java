@@ -3,6 +3,9 @@ package homeWork6.animals;
 public class Dog extends Animals{
 
     public static int ANIMALCOUNT;
+    static {
+        ANIMALCOUNT = 0;
+    }
 
     public Dog(String name){
 

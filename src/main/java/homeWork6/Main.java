@@ -19,7 +19,9 @@ public class Main {
         for (int i = 0; i <animals.length ; i++) {
             animals[i].run();
             animals[i].toSwim();
-
         }
+        System.out.println("Количество животных: " + Animals.getANIMALCOUNT());
+        System.out.println("Количество котов: " + Cat.getANIMALCOUNT());
+        System.out.println("Количество собак: " + Dog.getANIMALCOUNT());
     }
 }

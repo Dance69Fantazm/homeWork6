@@ -12,6 +12,9 @@ public abstract class Animals {
     protected int maxSwim;
 
     private static int ANIMALCOUNT;
+    static {
+        ANIMALCOUNT = 0;
+    }
     static Scanner sc = new Scanner(System.in);
 
     public static void rolSc() {
